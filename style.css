@@ -8,6 +8,12 @@ body {
     width: 100vw;
 }
 
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 3px 5px;
+    color: #e5e7eb;
+}
 
 
 header {
@@ -25,6 +31,11 @@ ul {
 
 a:visited {
     color: #F9FAF8 
+}
+
+.header-btn {
+    border: none;
+    padding: 2px 15px;
 }
 
 .header-top {
@@ -53,4 +64,57 @@ a:visited {
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.placeholder p {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-main-left h2 {
+    font-size: 32px;
+    color: #F9FAF8;
+}
+
+.top-main-left p {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+
+
+.main-top {
+    background-color: #F9FAF8;
+    height: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.card-text {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 50%
+}
+
+.card-p {
+    width: 45%;
+    margin: 5px 0;
 }
